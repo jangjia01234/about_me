@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Pretendard-Regular";
+  background-image: url("https://media4.giphy.com/media/UUHUfrG6NsXzG/giphy.gif?cid=ecf05e47lk1pg0vprnne53hwfsywkaskw1duyyywo5wnux6m&rid=giphy.gif&ct=g");
+  /* background-image: url("https://media3.giphy.com/media/KheRlOh6HLhoDRFw1O/giphy.gif?cid=ecf05e47lk1pg0vprnne53hwfsywkaskw1duyyywo5wnux6m&rid=giphy.gif&ct=g"); */
+  /* background-image: url("https://media4.giphy.com/media/5Z1UjlpIN9cAg/giphy.gif?cid=ecf05e47jlx9j5i65zypjdbh6aq4qpiczy2kujxr25iqa3fz&rid=giphy.gif&ct=g"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(192, 192, 192, 0.16);
+  color: rgba(106, 106, 106, 0.013);
+  padding: 14px 20px;
+}
+
+.navBar div:first-child:hover {
+  cursor: pointer;
+}
+
+.navBar_right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  font-size: 14px;
+}
+
+.navBar_right div:hover {
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.701);
+}
+
+a:hover {
+  color: white;
+  font-weight: 800;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile div:first-child {
+  margin-top: 80px;
+  font-family: "Rubik Bubbles", cursive;
+  font-size: 50px;
+  color: silver;
+  letter-spacing: 1px;
+}
+
+.profile div:nth-child(2) {
+  font-size: 20px;
+  color: silver;
+  margin: 10px 0 60px 0;
+  opacity: 50%;
+  text-align: center;
+  font-style: italic;
+}
+
+.meImg {
+  width: 300px;
+  height: 300px;
+  border-radius: 30%;
+  overflow: hidden;
+  border: 10px solid silver;
+}
+
+.meImg:hover {
+  cursor: pointer;
+}
+
+.meImg_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
