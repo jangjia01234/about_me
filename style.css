@@ -24,10 +24,6 @@
   font-style: normal;
 }
 
-.navBar div:first-child:hover {
-  cursor: pointer;
-}
-
 .navBar_left {
   font-size: 20px;
   font-weight: 800;
