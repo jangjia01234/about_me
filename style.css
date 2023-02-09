@@ -24,13 +24,6 @@
   font-style: normal;
 }
 
-.navBar_right {
-  display: flex;
-  justify-content: flex-end;
-  gap: 40px;
-  font-size: 14px;
-}
-
 .navBar_right div:hover {
   cursor: pointer;
 }
