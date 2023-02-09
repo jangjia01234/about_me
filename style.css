@@ -24,10 +24,6 @@
   font-style: normal;
 }
 
-.navBar_right div:hover {
-  cursor: pointer;
-}
-
 a {
   color: black;
   text-decoration: none;

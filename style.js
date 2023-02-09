@@ -20,10 +20,6 @@ navBarElement.style.padding = "16px 24px";
 navBarLeftElement.style.fontSize = "20px";
 navBarLeftElement.style.fontWeight = "800";
 
-logoElement.addEventListener("mouseover", function () {
-  logoElement.style.cursor = "pointer";
-});
-
 navBarRightElement.style.display = "flex";
 navBarRightElement.style.justifyContent = "flex-end";
 navBarRightElement.style.gap = "40px";
