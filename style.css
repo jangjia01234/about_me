@@ -28,7 +28,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: rgba(192, 192, 192, 0.16); */
   color: rgba(106, 106, 106, 0.013);
   padding: 16px 24px;
 }
