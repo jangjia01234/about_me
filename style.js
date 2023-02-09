@@ -6,6 +6,8 @@ const navBarLeftElement = document.querySelector(".navBar_left");
 const logoElement = document.querySelector(".logo");
 const navBarRightElement = document.querySelector(".navBar_right");
 const profileElement = document.querySelector(".profile");
+const profileTitleElement = document.querySelector(".profile-title");
+const profileSubTitleElement = document.querySelector(".profile-subTitle");
 
 htmlElement.style.backgroundColor = "black";
 
@@ -42,3 +44,11 @@ profileElement.style.display = "flex";
 profileElement.style.flexDirection = "column";
 profileElement.style.alignItems = "center";
 profileElement.style.fontStyle = "italic";
+
+profileTitleElement.style.marginTop = "100px";
+profileTitleElement.style.fontFamily = "KIMM_Bold";
+profileTitleElement.style.fontWeight = "800";
+profileTitleElement.style.fontSize = "50px";
+profileTitleElement.style.color = "white";
+profileTitleElement.style.letterSpacing = "1px";
+profileTitleElement.style.fontFamily = "HBIOS-SYS";
