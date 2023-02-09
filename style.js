@@ -1,7 +1,9 @@
 const htmlElement = document.querySelector("html");
 const bodyElement = document.querySelector("body");
 const navBarElement = document.querySelector(".navBar");
+const navBarLeftElement = document.querySelector(".navBar_left");
 const logoElement = document.querySelector(".logo");
+const navBarRightElement = document.querySelector(".navBar_right");
 
 htmlElement.style.backgroundColor = "black";
 
@@ -14,6 +16,9 @@ navBarElement.style.justifyContent = "space-between";
 navBarElement.style.alignItems = "center";
 navBarElement.style.color = "rgba(106, 106, 106, 0.013)";
 navBarElement.style.padding = "16px 24px";
+
+navBarLeftElement.style.fontSize = "20px";
+navBarLeftElement.style.fontWeight = "800";
 
 logoElement.addEventListener("mouseover", function () {
   logoElement.style.cursor = "pointer";

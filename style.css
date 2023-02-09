@@ -24,11 +24,6 @@
   font-style: normal;
 }
 
-.navBar_left {
-  font-size: 20px;
-  font-weight: 800;
-}
-
 .navBar_right {
   display: flex;
   justify-content: flex-end;
