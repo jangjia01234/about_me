@@ -52,3 +52,11 @@ profileTitleElement.style.fontSize = "50px";
 profileTitleElement.style.color = "white";
 profileTitleElement.style.letterSpacing = "1px";
 profileTitleElement.style.fontFamily = "HBIOS-SYS";
+
+profileSubTitleElement.style.fontSize = "12px";
+profileSubTitleElement.style.color = "rgba(255, 255, 255, 0.864)";
+profileSubTitleElement.style.margin = "10px 0 60px 0";
+profileSubTitleElement.style.opacity = "50%";
+profileSubTitleElement.style.textAlign = "center";
+profileSubTitleElement.style.letterSpacing = "2px";
+profileSubTitleElement.style.lineHeight = "16px";
