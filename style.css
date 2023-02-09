@@ -24,14 +24,6 @@
   font-style: normal;
 }
 
-.navBar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: rgba(106, 106, 106, 0.013);
-  padding: 16px 24px;
-}
-
 .navBar div:first-child:hover {
   cursor: pointer;
 }
