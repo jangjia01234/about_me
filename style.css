@@ -24,16 +24,6 @@
   font-style: normal;
 }
 
-body {
-  margin: 0 auto;
-  /* font-family: "Pretendard-Regular"; */
-  /* background-image: url("https://media4.giphy.com/media/UUHUfrG6NsXzG/giphy.gif?cid=ecf05e47lk1pg0vprnne53hwfsywkaskw1duyyywo5wnux6m&rid=giphy.gif&ct=g"); */
-  /* background-size: cover;
-  background-repeat: no-repeat; */
-  height: 100vh;
-  font-family: "KIMM_Bold";
-}
-
 .navBar {
   display: flex;
   justify-content: space-between;
