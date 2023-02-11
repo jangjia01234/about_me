@@ -1,7 +1,7 @@
 const htmlElement = document.querySelector("html");
 const bodyElement = document.querySelector("body");
 
-const navBarElement = document.querySelector(".navBar");
+const navBarElement = document.querySelector("nav");
 // const aTagElement = document.getElementsByTagName("a");
 const navBarLeftElement = document.querySelector(".navBar_left");
 const logoElement = document.querySelector(".logo");
@@ -22,8 +22,8 @@ const addressBlogElement = document.querySelector(".address_blog");
 const playlistNowElement = document.querySelector(".playlist_now");
 const playlistElement = document.querySelector(".playlist");
 
-const workTitleElement = document.querySelector(".work_title");
 const workElement = document.querySelector(".work");
+const workTitleElement = document.querySelector(".work_title");
 
 htmlElement.style.backgroundColor = "black";
 
@@ -129,7 +129,7 @@ meImgElement.addEventListener("mouseout", function () {
 // playlistNowElement.style.marginBottom = "20px";
 // playlistNowElement.style.fontFamily = "HBIOS-SYS";
 
-// workTitleElement.style.margin = "100px 0 40px 0";
+workTitleElement.style.margin = "100px 0 40px 0";
 
 // workElement.style.color = "white";
 // workElement.style.display = "none";
